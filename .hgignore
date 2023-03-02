@@ -1,0 +1,34 @@
+syntax: glob
+
+bin/
+obj/
+.vs/
+
+*.suo
+*.psess
+*.vsp
+*.vspx
+FodyWeavers.xsd
+packages/
+
+# Statiq output and build files
+cache/
+temp/
+output/
+
+# Mermaid npm stuff
+Mermaid/node_modules/
+Mermaid/package-lock.json
+Mermaid/package.json
+
+BenchmarkDotNet.Artifacts/
+*.DotSettings.user
+
+*.code-workspace
+
+.idea/
+
+# Docs
+docs/output/**
+
+build-artifacts/**

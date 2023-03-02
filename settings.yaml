@@ -1,0 +1,19 @@
+Analyzers:
+  - ValidateRelativeLinks=None
+GenerateSearchIndex: true
+MirrorResources: true
+# This breaks case-sensitive file systems
+OptimizeContentFileNames: false
+
+SiteTitle: RandN
+# Ensure we don't pull in Examples, Tests, or Benchmarks
+SourceFiles: "src/**/{Core,RandN}/**/*.cs"
+Logo: /assets/img/randn-logo-wide.svg
+EditRoot: https://github.com/ociaw/RandNDocs/blob/master/input
+
+MermaidExecutable: mmdc
+RepositoryType: Hg
+RepositoryPath: https://hg.sr.ht/~ociaw/RandN
+Versions:
+  master: bookmark(master)
+  v0.3.0: tag(v0.3.0)
